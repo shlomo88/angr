@@ -856,7 +856,7 @@ class SimState(ana.Storable): # pylint: disable=R0904
     def reachable(self):
         return self.history.reachable()
 
-    @deprecated
+    @deprecated()
     def trim_history(self):
         self.history.trim()
 
