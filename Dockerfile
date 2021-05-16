@@ -1,4 +1,4 @@
-from ubuntu:trusty
+from ubuntu:trusty-20190515
 maintainer audrey@rhelmot.io
 
 run apt-get update &&									\
